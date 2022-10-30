@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: century Gothic;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header__logo {
+    margin: 3rem 0;
+}
+
+/** Navegacion **/
+.navegacion {
+    background-color: #000000;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem; 
+}
+.navegacion__enlace {
+    font-family: 'Yeseva One', cursive;;
+    color: white;
+    font-size: 3rem;
+}
+
+.navegacion__enlace--activo,
+.navegacion__enlace:hover {
+    color: #fbff00;
+}
+
+body{
+    /* background-color: #ededed; */
+    background-image: url(/img_go/fond.jpg);
+}
+
+form{
+    width: 700px;
+    margin: auto;
+    background-color: #8ae;
+    margin-top: 100px;
+}
+
+input{
+    margin: 15px;
+    padding: 5px;
+    width: 660px;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.submit{
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+textarea{
+    font-size: 18px;
+    margin: 15px;
+    padding: 5px;
+    min-width: 660px;
+    max-width: 660px;
+    min-height: 100px;
+    max-height: 200px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+/** Footer con**/
+.footer_con {
+    background-color: #000000;
+    padding: 1rem 0;
+    margin-top: 12.3rem;
+}
+.footer__texto_con {
+    color: white;
+    font-family: 'Fugaz One', cursive;
+    text-align: center;
+    font-size: 2.2rem;
+}
